@@ -26,6 +26,9 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import postgresql from './tech/postgresql.png';
+import githubActions from './tech/github-actions.png';
+import framerMotion from './tech/framer-motion.png';
+import drizzle from './tech/drizzle.png';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -71,4 +74,7 @@ export {
   nextjs,
   githubIcon,
   url,
+  githubActions,
+  framerMotion,
+  drizzle,
 };

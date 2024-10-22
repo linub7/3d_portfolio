@@ -26,6 +26,9 @@ import {
   postgresql,
   scss,
   githubIcon,
+  githubActions,
+  framerMotion,
+  drizzle,
 } from '../assets';
 
 export const uiuxImage = 'https://imgurl.ir/uploads/k32140_figma-projects.png';
@@ -128,6 +131,18 @@ const technologies = [
   {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'github-action',
+    icon: githubActions,
+  },
+  {
+    name: 'framer-motion',
+    icon: framerMotion,
+  },
+  {
+    name: 'drizzle',
+    icon: drizzle,
   },
 ];
 
@@ -470,6 +485,38 @@ const projects = [
     source_code_link_front:
       'https://github.com/linub7/ecommerce-redux-react-front',
     url: '',
+  },
+  {
+    name: 'LinOverflow',
+    description:
+      'Mini StackOverFlow! Signup & Signin with Clerk, clerk webhooks to sync with mongoose DB, create questions, tags and answer them, upvote/downvote, saved questions! create interactions, Filter out in every page based on page context, 2 type search (local search and global search), paginate lists, dark mode, fully responsive, skeletons and many more! Take a look PLEASE (turn on your VPN please)',
+    field: 'next',
+    tags: [
+      {
+        name: 'next',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'clerk',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: 'https://imgurl.ir/uploads/s39138_next-f.png',
+    source_code_link_back: '',
+    source_code_link_front: 'https://github.com/linub7/next-14-linoverflow',
+    url: 'https://next-14-linoverflow-linub7s-projects.vercel.app/',
   },
   {
     name: 'CMS',

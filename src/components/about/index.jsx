@@ -9,7 +9,7 @@ const About = () => {
     <>
       <SectionHeader subText={'Introduction'} HeadText={'Overview'} />
       <SectionDescription
-        description={`I am Mohammad Hadi, a native Turkish speaker with proficiency in Farsi, English, and German. I am passionate about programming and continuously strive to expand my skillset. Currently, I am learning the Redis database and plan to explore Flutter development in the future. My dedication to learning is unwavering.`}
+        description={`I am Mohammad Hadi, a native Turkish speaker with proficiency in Farsi, English, and German. I am passionate about programming and continuously strive to expand my skillset. Currently, I am learning Redis database and plan to explore Flutter development in the future. My dedication to learning is unwavering.`}
       />
       <div className="mt-20 flex flex-wrap gap-10">
         {services?.map((service, index) => (
