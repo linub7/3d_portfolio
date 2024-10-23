@@ -267,7 +267,8 @@ const projects = [
     image: 'https://imgurl.ir/uploads/q988696_react-f.png',
     source_code_link_back: 'https://github.com/linub7/facebook-clone-backend',
     source_code_link_front: 'https://github.com/linub7/facebook-clone-frontend',
-    url: 'https://symphonious-kheer-d6e146.netlify.app',
+    url: 'https://facebook-clone-frontend-eight.vercel.app',
+    // url: 'https://symphonious-kheer-d6e146.netlify.app',
   },
   {
     name: 'House marketplace',
